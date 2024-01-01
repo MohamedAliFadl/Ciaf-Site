@@ -38,9 +38,9 @@ jQuery( document ).ready(function( $ ) {
                 dots: true,
                 items: 1,
                 margin: 30,
-                autoplay: false,
-                smartSpeed: 700,
-                autoplayTimeout: 6000,
+                autoplay: true,
+                smartSpeed: 1000,
+                autoplayTimeout: 2000,
                 responsive: {
                     0: {
                         items: 1,
@@ -94,7 +94,7 @@ jQuery( document ).ready(function( $ ) {
 
         $(".Modern-Slider").slick({
             autoplay:true,
-            autoplaySpeed:10000,
+            autoplaySpeed:5000,
             speed:600,
             slidesToShow:1,
             slidesToScroll:1,
@@ -102,7 +102,7 @@ jQuery( document ).ready(function( $ ) {
             dots:true,
             pauseOnDotsHover:true,
             cssEase:'linear',
-           // fade:true,
+           fade:true,
             draggable:false,
             prevArrow:'<button class="PrevArrow"></button>',
             nextArrow:'<button class="NextArrow"></button>', 
