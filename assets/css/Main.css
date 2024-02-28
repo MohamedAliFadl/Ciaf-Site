@@ -1430,6 +1430,7 @@ section .section-title {
   transition: 1s;
   transform-style: preserve-3d;
   position: relative;
+  cursor: pointer;
 }
 
 .frontside {
